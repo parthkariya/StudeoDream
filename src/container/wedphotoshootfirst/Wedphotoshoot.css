@@ -1,0 +1,38 @@
+.sec-padding-top {
+    padding-top: 60px;
+}
+
+.wedphotoshoot_first_flex {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.wedphotoshoot_first_imgbox {
+    width: 60%;
+    height: 431px;
+    background-color: #D9D9D9 !important;
+}
+
+.wedphotoshoot_first_txtbox {
+    width: 40%;
+}
+
+.mr-bottom {
+    margin-bottom: 30px;
+}
+
+.mr-bottom-small {
+    margin-bottom: 10px;
+}
+
+.wedphotoshoot_first_txt {
+    max-width: 400px;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+
+.wedphotoshoot_first_link {
+    color: var(--color-blue);
+}

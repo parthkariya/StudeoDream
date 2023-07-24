@@ -1,0 +1,22 @@
+.commercial-imgbox {
+    min-width: 400px;
+    height: 285px;
+    background-color: var(--color-grey-imgbox);
+}
+
+.commercial-main-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.commercial-part-flex {
+    display: flex;
+    gap: 25px;
+}
+
+.commercial-videos-details-flex-part-sec {
+    width: 250px;
+}

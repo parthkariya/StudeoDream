@@ -1,0 +1,32 @@
+.ourclientele-flex {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 50px;
+}
+
+.ourclientele-noflex {
+    display: block !important;
+}
+
+.ourclientele-heading {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-black);
+    margin-bottom: 25px;
+}
+
+.ourclientele-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: disc;
+    margin: 15px;
+    padding: 0px;
+}
+
+.ourclientele-list {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-black);
+    /* margin-bottom: 25px; */
+}

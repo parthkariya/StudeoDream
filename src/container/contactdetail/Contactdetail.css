@@ -1,0 +1,31 @@
+.con-head-clr-chng {
+    color: var(--color-black);
+    font-weight: 400;
+}
+
+.contact-box-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contact-box-sec {
+    display: flex;
+    gap: 125px;
+}
+
+.contact-box-social-flex {
+    display: flex;
+}

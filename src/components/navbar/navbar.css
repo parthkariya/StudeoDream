@@ -1,0 +1,43 @@
+.nav_main_wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-white);
+}
+
+.nav_base_wrapp {
+  max-width: var(--max-width);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px auto;
+}
+
+.nav_icon {
+  max-width: 113px;
+}
+
+.nav_links_wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+}
+
+.nav_single_link {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 23px;
+
+  text-transform: uppercase;
+
+  color: var(--color-grey);
+}
+
+.nav_insta_logo {
+  width: 1rem;
+  height: 1rem;
+}

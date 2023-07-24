@@ -1,0 +1,50 @@
+.wedphotoshoot_sec {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    max-height: 150vh;
+    overflow-y: scroll;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* Main CSS */
+.masonry-grid {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.masonry-grid-item {
+    margin-bottom: 20px;
+    position: relative;
+    break-inside: avoid;
+    width: 100%;
+    will-change: transform;
+    /* border-radius: 4px; */
+    overflow: hidden;
+    box-shadow: 3px 3px 5px -3px rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (min-width: 576px) {
+    .masonry-grid {
+        column-count: 3;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .masonry-grid {
+        column-count: 4;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .masonry-grid {
+        column-count: 4;
+    }
+}

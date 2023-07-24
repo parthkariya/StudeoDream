@@ -1,0 +1,9 @@
+.aboutus-flex-column {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.aboutuscontent-box {
+    max-width: 920px;
+}
